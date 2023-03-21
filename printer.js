@@ -7,7 +7,7 @@ const printer = new ThermalPrinter({
 const isConnected = await printer.isPrinterConnected();
 console.log('Printer connected:', isConnected);
 
-printer.printIn('Hello world')
+printer.println('Hello world')
 
 }
 example()
