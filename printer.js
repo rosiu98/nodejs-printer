@@ -1,4 +1,4 @@
-const { ThermalPrinter, PrinterTypes, CharacterSet, BreakLine } = require('../node-thermal-printer')
+const { ThermalPrinter, PrinterTypes, CharacterSet, BreakLine } = require('node-thermal-printer')
 
 async function example() {
   const printer = new ThermalPrinter({
