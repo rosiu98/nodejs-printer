@@ -1,4 +1,4 @@
-const printer = require("node-thermal-printer");
+const {ThermalPrinter} = require("node-thermal-printer");
 async function example() {
 const printer = new ThermalPrinter({
     type: 'epson',
