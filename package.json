@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "escpos": "^3.0.0-alpha.6",
     "express": "^4.18.2",
     "printer": "^0.4.0"
   },
