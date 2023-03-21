@@ -15,10 +15,9 @@ async function example() {
   });
 
   const isConnected = await printer.isPrinterConnected();
-  console.log('Printer connected:', isConnected);
+  console.log('Printer connectedd:', isConnected);
 
   printer.alignCenter();
-  await printer.printImage('./assets/olaii-logo-black-small.png');
 
   printer.alignLeft();
   printer.newLine();
@@ -34,6 +33,7 @@ async function example() {
   printer.invert(true);
   printer.println('Hello World inverted!');
   printer.invert(false);
+
   printer.drawLine();
 
   printer.println('Special characters: ČčŠšŽžĐđĆćßẞöÖÄäüÜé');
