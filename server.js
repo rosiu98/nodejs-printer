@@ -1,8 +1,8 @@
 const escpos = require('escpos')
 
-escpos.USB = require('escpos-usb')
+escpos.SerialPort = require('escpos-serialport')
 
-const device = new escpos.Serial('/dev/usb/lp0')
+const device = new escpos.SerialPort('/dev/usb/lp0')
 const printer = new escpos.Printer(device)
 
 printer.text('TEST 12342342')
